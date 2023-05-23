@@ -32,9 +32,7 @@
 #include "zlib.h"
 #include "zip.h"
 
-#ifdef STDC
-#  include <stddef.h>
-#endif
+#include <stddef.h>
 #ifdef NO_ERRNO_H
     extern int errno;
 #else
